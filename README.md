@@ -1,5 +1,5 @@
 # power-output-calculator
-Calculate the power dissipated by an appliance in watts using its voltage rating and resistance rating.
+The system estimates the theoretical power output of an appliance using its power and resistance rating.
 
 Screenshot
 
