@@ -6,7 +6,7 @@ def calculateOutput():
         if isinstance(int(volt_value.get()),int) and isinstance(int(res_value.get()),int):
             #Math
             r_sq = int(volt_value.get())**2
-            power = str(r_sq/int(res_value.get())) + " Watts"
+            power ="Approx " + str(round(r_sq/int(res_value.get()))) + " Watts"
             val = Label(app,text=power, font=("italic",16),foreground="#e03b09",padx=5,pady=15)
             val.grid(row=9,column=3,sticky=W)
             val.configure(background="#00030a")
