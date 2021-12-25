@@ -1,3 +1,4 @@
+#Note that the efficiency of the appliance counts too
 import tkinter
 from tkinter import *
 from tkinter import messagebox
